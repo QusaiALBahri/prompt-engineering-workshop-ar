@@ -397,6 +397,44 @@ h4 {
   border-radius: 26px;
 }
 
+.timeline-card,
+.lab-card,
+.surprise-card,
+.module-card,
+.check-card,
+.final-card,
+.prompt-box,
+.tool-links a,
+.compare-card--light,
+.reading-card,
+.exercise-card,
+.detail-card {
+  color: var(--ink);
+}
+
+.timeline-card p,
+.lab-card p,
+.surprise-card p,
+.module-card p,
+.check-card p,
+.final-card p,
+.reading-card p,
+.exercise-card p,
+.detail-card p,
+.compare-card--light p,
+.timeline-card li,
+.lab-card li,
+.surprise-card li,
+.module-card li,
+.check-card li,
+.final-card li,
+.reading-card li,
+.exercise-card li,
+.detail-card li,
+.compare-card--light li {
+  color: var(--muted);
+}
+
 .timeline-card__time {
   display: inline-block;
   margin-bottom: 12px;
